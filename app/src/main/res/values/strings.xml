@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Toolbox</string>
+    <string name="title_tool">Tools</string>
+    <string name="title_friend">Friends</string>
+    <string name="profile">Profile</string>
+
+    <string name="txt_auto_name">Name</string>
+    <string name="title_return">Return Tool</string>
+    <string name="title_detail">Detail</string>
+    <string name="borrowed">Borrowed</string>
+    <string name="total">Total</string>
+</resources>
