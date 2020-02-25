@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='AlephCodeAssignment'
+rootProject.name='AlephCodeAssignmentKotlin'
