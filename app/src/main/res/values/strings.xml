@@ -7,4 +7,12 @@
     <string name="txt_auto_name">Name</string>
     <string name="title_return">Return Tool</string>
     <string name="title_detail">Detail</string>
+
+    <string name="title_name">Name</string>
+    <string name="return_message">Are you sure to mark this tool as returned?</string>
+    <string name="return_tool">Returned Tool</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="total_count">Total Item : %d</string>
+    <string name="borrow_count">Borrowed : %d</string>
 </resources>
