@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tool"
+    app:startDestination="@id/tool_fragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/tool_fragment"
+        android:name="com.imceits.aungtuntun.alephcodeassignment.ui.ToolFragment"
+        android:label="@string/title_tool"
+        tools:layout="@layout/tool_fragment" />
+</navigation>
