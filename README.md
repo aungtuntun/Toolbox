@@ -1,5 +1,5 @@
 # Toolbox
-This project is sample of coding with dagger 2, Room and View
+This project is sample of coding with Kotlin, Room and ViewModel
 Problem Statement
 
 Dominic Toretto has retired from his fast and the furious driving days and spends his days tinkering in his garage. His friends always come to borrow tools from him and he’s finding it difficult to keep track of who took what. He has hired you to build an app to keep track of his tools. He has given the following requirements:
