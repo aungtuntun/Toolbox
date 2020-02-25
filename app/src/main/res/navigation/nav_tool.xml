@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_tool"
-    app:startDestination="@id/toolsFragment"
+    app:startDestination="@id/tool_fragment"
     tools:ignore="UnusedNavigation">
 
     <fragment
-        android:id="@+id/toolsFragment"
-        android:name="com.imceits.aungtuntun.toolsbox.ui.ToolsFragment"
-        android:label="Tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/tool_fragment"
+        android:name="com.imceits.aungtuntun.alephcodeassignment.ui.ToolFragment"
+        android:label="@string/title_tool"
+        tools:layout="@layout/tool_fragment" />
 </navigation>

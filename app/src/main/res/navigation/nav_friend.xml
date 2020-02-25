@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_friend"
-    app:startDestination="@id/friend"
+    app:startDestination="@id/friend_fragment"
     tools:ignore="UnusedNavigation">
 
     <fragment
-        android:id="@+id/friend"
-        android:name="com.imceits.aungtuntun.toolsbox.ui.FriendFragment"
-        android:label="Friends"
-        tools:layout="@layout/fragment_friend">
+        android:id="@+id/friend_fragment"
+        android:name="com.imceits.aungtuntun.alephcodeassignment.ui.FriendFragment"
+        android:label="@string/title_friend"
+        tools:layout="@layout/friend_fragment" >
         <action
-            android:id="@+id/action_friend_to_rent"
-            app:destination="@id/rent" />
+            android:id="@+id/action_friend_fragment_to_detail_fragment"
+            app:destination="@id/detail_fragment" />
     </fragment>
     <fragment
-        android:id="@+id/rent"
-        android:name="com.imceits.aungtuntun.toolsbox.ui.RentFragment"
-        android:label="Details"
-        tools:layout="@layout/fragment_rent">
+        android:id="@+id/detail_fragment"
+        android:name="com.imceits.aungtuntun.alephcodeassignment.ui.DetailFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/detail_fragment" >
         <argument
             android:name="friend_id"
-            android:defaultValue="0"
-            app:argType="integer" />
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
 </navigation>
